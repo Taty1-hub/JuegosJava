@@ -1,10 +1,10 @@
 package com.company;
 
-public class Juego {
+public abstract class Juego {
 
         private int vidas;
         private int vidasIniciadas;
-        private static int record;
+        private static int record=0;
 
 
         public Juego(int vidas) {
@@ -41,6 +41,7 @@ public class Juego {
             }
         }
 
+        public abstract void Juega();
 
 
 }
